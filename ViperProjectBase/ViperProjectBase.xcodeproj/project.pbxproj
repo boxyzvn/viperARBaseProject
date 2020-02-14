@@ -9,19 +9,16 @@
 /* Begin PBXBuildFile section */
 		A52B8ABB23F6475A0035D3D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B8ABA23F6475A0035D3D7 /* AppDelegate.m */; };
 		A52B8ABE23F6475A0035D3D7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B8ABD23F6475A0035D3D7 /* SceneDelegate.m */; };
-		A52B8AC123F6475A0035D3D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B8AC023F6475A0035D3D7 /* ViewController.m */; };
 		A52B8AC423F6475A0035D3D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52B8AC223F6475A0035D3D7 /* Main.storyboard */; };
 		A52B8AC623F6475B0035D3D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52B8AC523F6475B0035D3D7 /* Assets.xcassets */; };
 		A52B8AC923F6475B0035D3D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52B8AC723F6475B0035D3D7 /* LaunchScreen.storyboard */; };
 		A52B8ACC23F6475B0035D3D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B8ACB23F6475B0035D3D7 /* main.m */; };
-		A52B8AD423F6479A0035D3D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B8AC023F6475A0035D3D7 /* ViewController.m */; };
 		A52B8AD523F6479A0035D3D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B8ABA23F6475A0035D3D7 /* AppDelegate.m */; };
 		A52B8AD623F6479A0035D3D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B8ACB23F6475B0035D3D7 /* main.m */; };
 		A52B8AD723F6479A0035D3D7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B8ABD23F6475A0035D3D7 /* SceneDelegate.m */; };
 		A52B8ADA23F6479A0035D3D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52B8AC723F6475B0035D3D7 /* LaunchScreen.storyboard */; };
 		A52B8ADB23F6479A0035D3D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52B8AC523F6475B0035D3D7 /* Assets.xcassets */; };
 		A52B8ADC23F6479A0035D3D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52B8AC223F6475A0035D3D7 /* Main.storyboard */; };
-		A52B8AE423F647A80035D3D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B8AC023F6475A0035D3D7 /* ViewController.m */; };
 		A52B8AE523F647A80035D3D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B8ABA23F6475A0035D3D7 /* AppDelegate.m */; };
 		A52B8AE623F647A80035D3D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B8ACB23F6475B0035D3D7 /* main.m */; };
 		A52B8AE723F647A80035D3D7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A52B8ABD23F6475A0035D3D7 /* SceneDelegate.m */; };
@@ -36,8 +33,6 @@
 		A52B8ABA23F6475A0035D3D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A52B8ABC23F6475A0035D3D7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		A52B8ABD23F6475A0035D3D7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		A52B8ABF23F6475A0035D3D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A52B8AC023F6475A0035D3D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A52B8AC323F6475A0035D3D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A52B8AC523F6475B0035D3D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A52B8AC823F6475B0035D3D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,10 +90,9 @@
 		A52B8AB823F6475A0035D3D7 /* ViperProjectBase */ = {
 			isa = PBXGroup;
 			children = (
-				A52B8AF323F6496C0035D3D7 /* App Delegate */,
-				A52B8AF223F649330035D3D7 /* Supporting Files */,
-				A52B8ABF23F6475A0035D3D7 /* ViewController.h */,
-				A52B8AC023F6475A0035D3D7 /* ViewController.m */,
+				A52B8AF923F6A22B0035D3D7 /* Modules */,
+				A52B8AF523F6A1F40035D3D7 /* Services */,
+				A52B8AF423F6A1D50035D3D7 /* App */,
 			);
 			path = ViperProjectBase;
 			sourceTree = "<group>";
@@ -126,6 +120,53 @@
 				A52B8ABD23F6475A0035D3D7 /* SceneDelegate.m */,
 			);
 			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		A52B8AF423F6A1D50035D3D7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A52B8AF223F649330035D3D7 /* Supporting Files */,
+				A52B8AF323F6496C0035D3D7 /* App Delegate */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A52B8AF523F6A1F40035D3D7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A52B8AF823F6A2200035D3D7 /* Location Services */,
+				A52B8AF723F6A2090035D3D7 /* CoreData Services */,
+				A52B8AF623F6A1FC0035D3D7 /* API Services */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A52B8AF623F6A1FC0035D3D7 /* API Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "API Services";
+			sourceTree = "<group>";
+		};
+		A52B8AF723F6A2090035D3D7 /* CoreData Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "CoreData Services";
+			sourceTree = "<group>";
+		};
+		A52B8AF823F6A2200035D3D7 /* Location Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Location Services";
+			sourceTree = "<group>";
+		};
+		A52B8AF923F6A22B0035D3D7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +295,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A52B8AC123F6475A0035D3D7 /* ViewController.m in Sources */,
 				A52B8ABB23F6475A0035D3D7 /* AppDelegate.m in Sources */,
 				A52B8ACC23F6475B0035D3D7 /* main.m in Sources */,
 				A52B8ABE23F6475A0035D3D7 /* SceneDelegate.m in Sources */,
@@ -265,7 +305,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A52B8AD423F6479A0035D3D7 /* ViewController.m in Sources */,
 				A52B8AD523F6479A0035D3D7 /* AppDelegate.m in Sources */,
 				A52B8AD623F6479A0035D3D7 /* main.m in Sources */,
 				A52B8AD723F6479A0035D3D7 /* SceneDelegate.m in Sources */,
@@ -276,7 +315,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A52B8AE423F647A80035D3D7 /* ViewController.m in Sources */,
 				A52B8AE523F647A80035D3D7 /* AppDelegate.m in Sources */,
 				A52B8AE623F647A80035D3D7 /* main.m in Sources */,
 				A52B8AE723F647A80035D3D7 /* SceneDelegate.m in Sources */,
